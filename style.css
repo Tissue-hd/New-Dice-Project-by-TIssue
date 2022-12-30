@@ -113,12 +113,12 @@ a {
     text-align: center;
 }
 .player-active {
-    min-height: 40rem;
+    min-height: 35rem;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 9px;
 }
 .player-winner {
-    min-height: 500px;
+    min-height: 35rem;
     background-color: rgb(78, 198, 148);
     border-radius: 9px;
 }
@@ -135,14 +135,17 @@ a {
 
 /* Button */
 
-.btn {
-    position: absolute;
+.button {
     display: flex;
     flex-direction: column;
-
+    max-width: 60rem;
     align-items: center;
     justify-content: center;
+    margin: 1rem auto;
+    border: #444 solid 2px;
+}
 
+.btn {
     background: none;
     border: none;
     font-family: 'Luckiest Guy', sans-serif;
@@ -156,15 +159,6 @@ a {
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
     font-size: 1.3rem;
 }
-.btn-roll {
-    margin-top: 10rem;
-}
-.btn-hold {
-    margin-top: 20rem;
-}
-.btn-new {
-    margin-top: 30rem;
-}
 .btn:active {
     transform: translate(0%, 3px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
@@ -172,10 +166,22 @@ a {
 .btn:focus {
     outline: none;
 }
+.system {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.btn-roll {
+    margin-right: 10rem;
+    width: 16rem;
+}
+.btn-hold {
+    flex: 50%;
+}
 .dice {
-    width: 9rem;
+    max-width: 6rem;
     position: absolute;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
 }
 .crd {
     margin-top: 20px;
