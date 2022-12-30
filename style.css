@@ -117,7 +117,7 @@ a {
 }
 .player-winner {
     min-height: 35rem;
-    background-color: rgb(78, 198, 148);
+    background-color: #dc2430cb;
     border-radius: 9px;
 }
 .player-winner #name, .player-winner #score {
