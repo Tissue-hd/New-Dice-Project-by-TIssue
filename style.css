@@ -126,9 +126,10 @@ a {
 
 .btn {
     position: absolute;
-    top: 50%;
+    display: block;
+    /* top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     background: none;
     border: none;
     font-family: 'Luckiest Guy', sans-serif;
@@ -142,7 +143,7 @@ a {
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
     font-size: 16px;
 }
-.btn-roll {
+/* .btn-roll {
     top: 47%;
     left: 50%;
 }
@@ -153,9 +154,18 @@ a {
 .btn-new {
     top: 60%;
     left: 50%;
+} */
+.btn-roll {
+    margin-top: 10rem;
+}
+.btn-hold {
+    margin-top: 20rem;
+}
+.btn-new {
+    margin-top: 35rem;
 }
 .btn:active {
-    transform: translate(-50%, 3px);
+    transform: translate(0%, 3px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 .btn:focus {
