@@ -9,7 +9,7 @@
 html {
     font-size: 10px;
     font-family: 'Luckiest Guy', sans-serif;
-    background: linear-gradient(to right, #7b4397, #dc2430);
+    background-color: #222831;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #EEEEEE;
     margin: 2rem auto;
     margin-top: 3rem;
     padding: 0 1rem;
@@ -58,7 +58,7 @@ a {
 
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #EEEEEE;
     margin: 0 auto;
     padding: 0 1rem;
     text-align: center;
@@ -87,7 +87,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: rgb(161, 54, 215);
+    color: #393E46;
 }
 .player #name {
     font-size: 3rem;
@@ -101,7 +101,7 @@ a {
     margin-bottom: 1rem;
 }
 .player .current {
-    background-color: rgb(161, 54, 215);
+    background-color: crimson;
     opacity: 1;
     border-radius: 9px;
     color: #fff;
@@ -118,14 +118,14 @@ a {
 }
 .player-winner {
     min-height: 35rem;
-    background-color: #50ca5af8;
+    background-color: #00ADB5;
     border-radius: 9px;
 }
 .player-winner #name, .player-winner #score {
     color: #ffffff;
 }
 .player-winner .current {
-    background-color: rgb(27, 100, 52);
+    background-color: #008288;
 }
 
 /* end of Playboard */
