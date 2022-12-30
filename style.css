@@ -26,6 +26,7 @@ a {
     justify-content: center;
     color: white;
     margin: 2rem auto;
+    margin-top: 3rem;
     padding: 0 1rem;
     text-align: center;
 }
@@ -86,7 +87,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #7a1aa7;
+    color: #7b4397;
 }
 .player #name {
     font-size: 3rem;
@@ -100,8 +101,8 @@ a {
     margin-bottom: 1rem;
 }
 .player .current {
-    background-color: #dc2430;
-    opacity: 0.8;
+    background-color: #7b4397;
+    opacity: 1;
     border-radius: 9px;
     color: #fff;
     padding: 2rem 1.2rem;
@@ -117,14 +118,14 @@ a {
 }
 .player-winner {
     min-height: 35rem;
-    background-color: #dc2430cb;
+    background-color: #50ca5af8;
     border-radius: 9px;
 }
 .player-winner #name, .player-winner #score {
     color: #ffffff;
 }
 .player-winner .current {
-    background-color: #7a1aa7;
+    background-color: rgb(27, 100, 52);
 }
 
 /* end of Playboard */

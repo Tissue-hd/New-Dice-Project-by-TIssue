@@ -14,6 +14,9 @@ const btnRoll = document.querySelector('.btn-roll');
 const btnHold = document.querySelector('.btn-hold');
 const btnNew = document.querySelector('.btn-new');
 
+const name0 = document.querySelector('.name0');
+const name1 = document.querySelector('.name1');
+
 let scores, currentScore, activePlayer, playing;
 
 // end of Selecting Elements
@@ -32,6 +35,8 @@ const init = function () {
     score1El.textContent = 0;
     current0El.textContent = 0;
     current1El.textContent = 0;
+    name0.textContent = "player 1";
+    name1.textContent = "player 2";
 
     diceEl.classList.add('hidden');
     player0El.classList.remove('player-winner');
