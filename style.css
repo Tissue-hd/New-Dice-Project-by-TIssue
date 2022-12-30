@@ -174,15 +174,10 @@ a {
 .dice {
     width: 100px;
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-bottom: 150px;
 }
 .crd {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 20px;
     display: grid;
     place-items: center;
     color: rgb(35, 35, 35);
