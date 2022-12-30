@@ -21,12 +21,11 @@ a {
 .title {
     min-height: 10rem;
     max-width: 60rem;
-    border: #444 solid 2px;
 
     align-items: center;
     justify-content: center;
     color: white;
-    margin: 1rem auto;
+    margin: 2rem auto;
     padding: 0 1rem;
     text-align: center;
 }
@@ -55,12 +54,11 @@ a {
 .board {
     min-height: 10rem;
     max-width: 60rem;
-    border: #444 solid 2px;
 
     align-items: center;
     justify-content: center;
     color: white;
-    margin: 1rem auto;
+    margin: 0 auto;
     padding: 0 1rem;
     text-align: center;
 
@@ -99,6 +97,7 @@ a {
 }
 .player .current-label {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 .player .current {
     background-color: #dc2430;
@@ -141,10 +140,8 @@ a {
     max-width: 60rem;
     align-items: center;
     justify-content: center;
-    margin: 1rem auto;
-    border: #444 solid 2px;
+    margin: 2rem auto;
 }
-
 .btn {
     background: none;
     border: none;
@@ -184,10 +181,10 @@ a {
     padding-bottom: 8rem;
 }
 .crd {
-    margin-top: 20px;
     display: grid;
     place-items: center;
     color: rgb(35, 35, 35);
+    opacity: .5;
 }
 
 /* end of Button */
