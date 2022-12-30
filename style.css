@@ -19,28 +19,29 @@ a {
 /* Title */
 
 .title {
-    min-height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    min-height: 10rem;
+    max-width: 60rem;
+    border: #444 solid 2px;
+
     align-items: center;
     justify-content: center;
     color: white;
-    margin: 20px 0;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    text-align: center;
 }
 
 .title h1 {
-    font-size: 60px;
+    font-size: 4rem;
     letter-spacing: .2rem;
-    padding: 10px;
 }
 .title h2 {
-    font-size: 20px;
+    font-size: 1.5rem;
     letter-spacing: .08em;
     margin-bottom: 10px;
 }
 .title h3 {
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: .05em;
     color: rgba(210, 210, 210, 0.553);
 }
@@ -52,22 +53,27 @@ a {
 /* Playboard */
 
 .board {
-    display: grid;
-    place-items: center;
+    min-height: 10rem;
+    max-width: 60rem;
+    border: #444 solid 2px;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 1rem auto;
+    text-align: center;
+
+    display: flex;
 }
 
 .playboard{
-    position: relative;
-    height: 500px;
     width: 100%;
-    max-width: 800px;
 
     background-color: rgba(255, 255, 255, 0.35);
     backdrop-filter: blur(200px);
     filter: blur();
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
     border-radius: 9px;
-    overflow: hidden;
 
     display: flex;
     flex-direction: row;
@@ -84,32 +90,34 @@ a {
     color: #7a1aa7;
 }
 .player #name {
-    font-size: 40px;
+    font-size: 3rem;
 }
 .player #score {
-    font-size: 150px;
+    font-size: 10rem;
 }
 .player .current-label {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .player .current {
     background-color: #dc2430;
     opacity: 0.8;
     border-radius: 9px;
     color: #fff;
-    width: 50%;
-    padding: 20px;
+    padding: 2rem 1.2rem;
 }
 .player .current-score {
-    font-size: 40px;
+    font-size: 4rem;
+    text-align: center;
 }
 .player-active {
-    height: 500px;
+    min-height: 40rem;
     background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 9px;
 }
 .player-winner {
-    height: 500px;
+    min-height: 500px;
     background-color: rgb(78, 198, 148);
+    border-radius: 9px;
 }
 .player-winner #name, .player-winner #score {
     color: #ffffff;
@@ -126,10 +134,12 @@ a {
 
 .btn {
     position: absolute;
-    display: block;
-    /* top: 50%;
-    left: 50%;
-    transform: translateX(-50%); */
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
     background: none;
     border: none;
     font-family: 'Luckiest Guy', sans-serif;
@@ -141,20 +151,8 @@ a {
     padding: 0.7rem 2.5rem;
     border-radius: 50rem;
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+    font-size: 1.3rem;
 }
-/* .btn-roll {
-    top: 47%;
-    left: 50%;
-}
-.btn-hold {
-    top: 52%;
-    left: 50%;
-}
-.btn-new {
-    top: 60%;
-    left: 50%;
-} */
 .btn-roll {
     margin-top: 10rem;
 }
@@ -162,7 +160,7 @@ a {
     margin-top: 20rem;
 }
 .btn-new {
-    margin-top: 35rem;
+    margin-top: 30rem;
 }
 .btn:active {
     transform: translate(0%, 3px);
@@ -172,9 +170,9 @@ a {
     outline: none;
 }
 .dice {
-    width: 100px;
+    width: 9rem;
     position: absolute;
-    margin-bottom: 150px;
+    padding-bottom: 10rem;
 }
 .crd {
     margin-top: 20px;
@@ -188,3 +186,5 @@ a {
 .hidden {
     display: none;
 }
+
+/* Media Query */
