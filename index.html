@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Title -->
+
+    <div class="title">
+        <h1>Dice Master</h1>
+        <h2>the fastest player who get the score of 20 will win the game</h2>
+        <h3>if you get no.1, your turn will finish</h3>
+    </div>
+
+    <!-- End of Title -->
+
+    <!--++++++++++++++++++++++++++++++++++++++ -->
+
+    <!-- Playboard -->
+
+    <div class="board">
+        <div class="playboard">
+            <div class="player player0 player-active">
+                <h2 id="name" class="name0">Player 1</h2>
+                <p id="score" class="score0">43</p>
+                <div class="current">
+                    <p class="current-label">Current Score</p>
+                    <p class="current-score" id="current0">0</p>
+                </div>
+            </div>
+            <div class="player player1">
+                <h2 id="name" class="name1">Player 2</h2>
+                <p id="score" class="score1">42</p>
+                <div class="current">
+                    <p class="current-label">Current Score</p>
+                    <p class="current-score" id="current1">2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="img/dice-5.png" alt="Playing dice" class="dice"/>
+    <button class="btn btn-roll">Roll dice</button>
+    <button class="btn btn-hold">Hold</button>
+    <div class="btn btn-new">New</div>
+
+    <!-- End of Playboard -->
+
+    <div class="crd">
+        <p>© Created by Zwe</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
