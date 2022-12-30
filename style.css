@@ -87,7 +87,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #7b4397;
+    color: rgb(161, 54, 215);
 }
 .player #name {
     font-size: 3rem;
@@ -101,7 +101,7 @@ a {
     margin-bottom: 1rem;
 }
 .player .current {
-    background-color: #7b4397;
+    background-color: rgb(161, 54, 215);
     opacity: 1;
     border-radius: 9px;
     color: #fff;
