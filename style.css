@@ -9,7 +9,7 @@
 html {
     font-size: 10px;
     font-family: 'Luckiest Guy', sans-serif;
-    background-color: #222831;
+    background-color: #000504;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 
     align-items: center;
     justify-content: center;
-    color: #EEEEEE;
+    color: white;
     margin: 2rem auto;
     margin-top: 3rem;
     padding: 0 1rem;
@@ -41,9 +41,10 @@ a {
     margin-bottom: 10px;
 }
 .title h3 {
+    color: #eb572b;
     font-size: 1rem;
     letter-spacing: .05em;
-    color: rgba(210, 210, 210, 0.553);
+
 }
 
 /* end of Title */
@@ -69,7 +70,7 @@ a {
 .playboard{
     width: 100%;
 
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color:#32950b;
     backdrop-filter: blur(200px);
     filter: blur();
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -87,7 +88,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #393E46;
+    color: #000504;
 }
 .player #name {
     font-size: 3rem;
@@ -101,7 +102,7 @@ a {
     margin-bottom: 1rem;
 }
 .player .current {
-    background-color: crimson;
+    background-color:#eb572b;
     opacity: 1;
     border-radius: 9px;
     color: #fff;
@@ -113,19 +114,19 @@ a {
 }
 .player-active {
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #2ae473;
     border-radius: 9px;
 }
 .player-winner {
     min-height: 35rem;
-    background-color: #00ADB5;
+    background-color: #eb572b;
     border-radius: 9px;
 }
 .player-winner #name, .player-winner #score {
     color: #ffffff;
 }
 .player-winner .current {
-    background-color: #008288;
+    background-color: none;
 }
 
 /* end of Playboard */
@@ -146,10 +147,9 @@ a {
     background: none;
     border: none;
     font-family: 'Luckiest Guy', sans-serif;
-    color: #444;
+    color: 000504;
     cursor: pointer;
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: #2ae473;
     backdrop-filter: blur(10px);
     padding: 0.7rem 2.5rem;
     border-radius: 50rem;
@@ -162,6 +162,9 @@ a {
 }
 .btn:focus {
     outline: none;
+}
+.btn:hover {
+    background-color: #40bb10;
 }
 .system {
     display: flex;
@@ -183,7 +186,7 @@ a {
 .crd {
     display: grid;
     place-items: center;
-    color: rgb(35, 35, 35);
+    color: gainsboro;
     opacity: .5;
 }
 
